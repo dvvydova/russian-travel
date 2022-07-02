@@ -1,4 +1,30 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+    url("Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("Inter-Bold.woff2?v=3.19") format("woff2"),
+    url("Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("Inter-Black.woff2?v=3.19") format("woff2"),
+    url("Inter-Black.woff?v=3.19") format("woff");
+}
+
 @import url(../vendor/normalize.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);

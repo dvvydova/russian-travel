@@ -8,3 +8,11 @@
     grid-row: auto;
   }
 }
+
+@media screen and (max-width: 340px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+    grid-row: auto;
+  }
+}

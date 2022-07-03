@@ -13,11 +13,13 @@
 
 @media screen and (max-width: 320px) {
   .place {
+    display: flex;
     grid-template-columns: 320px 1fr;
+    flex-direction: column;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
   .place {
     grid-template-columns: 340px 1fr;
     grid-column-gap: 28px;

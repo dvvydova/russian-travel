@@ -7,11 +7,11 @@
   color: #fff;
 }
 
-/* @media screen and (max-width: 768) {
+@media screen and (max-width: 768) {
   .footer__copyright {
-    padding-right: 24px;
+    padding-left: 69px;
   }
-} */
+}
 
 @media screen and (max-width: 320px) {
   .footer__copyright {

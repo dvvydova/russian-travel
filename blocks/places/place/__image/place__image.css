@@ -1,9 +1,9 @@
 .place__image {
   width: 100%;
-  grid-row: 2/6;
+  object-fit: contain;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .place__image {
     grid-row: auto;
   }
@@ -15,4 +15,4 @@
     height: 320px;
     grid-row: auto;
   }
-}
+} */

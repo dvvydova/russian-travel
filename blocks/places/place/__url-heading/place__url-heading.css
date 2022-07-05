@@ -7,4 +7,20 @@
   letter-spacing: 2px;
   color: #aaaaaa;
   text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .place__url-heading {
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__url-heading {
+    line-height: 12px;
+    padding-bottom: 12px;
+  }
 }

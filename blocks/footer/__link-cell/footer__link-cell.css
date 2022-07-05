@@ -1,0 +1,10 @@
+.footer__link-cell {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link-cell {
+    padding-bottom: 32px;
+  }
+}

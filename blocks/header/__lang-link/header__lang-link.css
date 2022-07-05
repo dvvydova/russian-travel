@@ -5,6 +5,7 @@
   text-decoration: none;
   color: white;
   padding-left: 18px;
+  padding-bottom: 5px;
 }
 
 .header__lang-link:hover {

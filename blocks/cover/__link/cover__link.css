@@ -1,6 +1,5 @@
 .cover__link {
   background-image: url(../../../images/cover.png);
-  object-fit: cover;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -26,6 +25,10 @@
   opacity: 0.3;
   transition: 0.3s;
   z-index: -1;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {

@@ -3,13 +3,9 @@
   max-width: 1184px;
   margin: auto;
 }
-
-.cover:hover::before {
-  opacity: 0.8;
-}
-
-@media screen and (max-width: 768px) {
+/* 
+@media screen and (max-width: 767px) {
   .cover {
     grid-gap: 16px;
   }
-}
+} */
